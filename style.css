@@ -1,3 +1,6 @@
+#Taas {
+    background-color: pink;
+}
 .photo-nako {
     width: 325px;
     object-fit: scale-down;
@@ -18,7 +21,6 @@ body, .py-5 {
     color: white;
 }
 .forms {
-    background-image: url("1pw.gif");
     filter: blur("50%");
     border-radius: 1%;
 }
@@ -27,12 +29,12 @@ body, .py-5 {
         padding: 20px;
         border-radius: 10px;
         gap: 20px;
-        width: 100%;
+        width: 50%;
         display: grid;
         grid-template-columns: 1fr 1fr;
         align-items: center;
         height: 20vh;
-        margin: 0;
+        margin: 5% auto;
 }
 .skill {
     display: flex;
@@ -40,7 +42,7 @@ body, .py-5 {
 }
 .skill-name {
     font-weight: bold;
-    width: 30%;
+    width: 15%;
     color: white;
 }
 .progress-bar {
@@ -52,11 +54,14 @@ body, .py-5 {
 }
 .progress {
     height: 8px;
-    background-color: #ff0055;
+    background-color: #bd0a22;
 }
 .skill-percentage {
     width: 10%;
     text-align: right;
     color: white;
 }
-
+footer {
+    text-align: center;
+    background-color: white;
+}
